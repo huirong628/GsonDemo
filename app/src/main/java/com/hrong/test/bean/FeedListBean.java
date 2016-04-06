@@ -11,7 +11,7 @@ import java.util.List;
  */
 public class FeedListBean extends RetBaseBean {
 
-    public static final String KEY_TOPIC_FEED_LIST = "topic_post";
+    public static final String KEY_TOPIC_FEED_LIST = "feed_list";
 
     @Expose
     @SerializedName(KEY_TOPIC_FEED_LIST)
