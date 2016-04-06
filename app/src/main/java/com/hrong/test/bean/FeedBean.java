@@ -21,4 +21,16 @@ public class FeedBean extends IBeanAbs {
     @Expose
     @SerializedName(KEY_AUTHOR_HEAD)
     private String authorHead;
+
+    public long getId() {
+        return id;
+    }
+
+    public String getAuthorName() {
+        return authorName;
+    }
+
+    public String getAuthorHead() {
+        return authorHead;
+    }
 }
